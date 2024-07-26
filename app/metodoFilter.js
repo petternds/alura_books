@@ -6,4 +6,4 @@ function filtrarLivros() {
     const categoria = elementoBtn.value;
     let livrosFiltrados = livros.filter(livro => livro.categoria == categoria);
     exibirOsLivrosNaTela(livrosFiltrados);
-}
+};
